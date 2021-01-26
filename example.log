@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=lualatex 2021.1.19)  26 JAN 2021 19:26
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=lualatex 2021.1.19)  26 JAN 2021 21:37
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -1359,11 +1359,11 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
 
 Here is how much of LuaTeX's memory you used:
  22190 strings out of 478903
- 195328,1144653 words of node,token memory allocated
+ 195327,1144653 words of node,token memory allocated
  9315 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1245 glyph, 50 attribute, 61 glue_s
 pec, 26 attribute_list, 1 write nodes
-   avail lists: 1:2,2:920,3:35875,4:16,5:191,6:34,7:3912,8:1,9:253,10:11,11:1141
+   avail lists: 1:1,2:920,3:35851,4:15,5:191,6:35,7:3908,8:1,9:253,10:10,11:1141
 
  41160 multiletter control sequences out of 65536+600000
  89 fonts using 20128319 bytes
@@ -1373,7 +1373,7 @@ pec, 26 attribute_list, 1 write nodes
 e/fonts/eigene/Nagari-div/Sanskrit2003.ttf></usr/share/texmf-dist/fonts/opentype
 /public/libertine/LinLibertine_R.otf></usr/share/texmf-dist/fonts/opentype/publi
 c/libertine/LinBiolinum_RB.otf>
-Output written on example.pdf (3 pages, 85649 bytes).
+Output written on example.pdf (3 pages, 85600 bytes).
 
 PDF statistics: 49 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream

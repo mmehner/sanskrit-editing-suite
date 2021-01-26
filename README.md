@@ -31,11 +31,11 @@ workflow suggestion for encoding and rendering critical editions
 - [general workflow](charts/editing-workflow-with-ekdosis.pdf) with [ekdosis](https://ctan.org/pkg/ekdosis), [LuaLaTeX](https://de.wikipedia.org/wiki/LuaTeX) and [XSLT 2.0](https://www.w3.org/TR/xslt20/)
   - text encoding: LaTeX, cf. [this file](example.tex)
   - outputs:
-    - [PDF](https://cdn.jsdelivr.net/gh/radardenker/sanskrit-editing-suite/example.pdf) for publication by compiling three times:
+    - [PDF](https://rawcdn.githack.com/radardenker/sanskrit-editing-suite/master/example.pdf) for publication by compiling three times:
       ```
       lualatex example.tex
       ``` 
-    - [HTML](https://cdn.jsdelivr.net/gh/radardenker/sanskrit-editing-suite/html/example-tei.htm) for web rendering by applying the appropriate stylesheet to the xml file:
+    - [HTML](https://rawcdn.githack.com/radardenker/sanskrit-editing-suite/master/html/example-tei.htm) for web rendering by applying the appropriate stylesheet to the xml file:
       ```
       saxon-xslt -s:example-tei.xml -xsl:xslt2-stylesheets/html.xsl -o:html/example-tei.htm
       ```
