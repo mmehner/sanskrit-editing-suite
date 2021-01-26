@@ -31,9 +31,18 @@ workflow suggestion for encoding and rendering critical editions
 - [general workflow](charts/editing-workflow-with-ekdosis.pdf) with [ekdosis](https://ctan.org/pkg/ekdosis), [LuaLaTeX](https://de.wikipedia.org/wiki/LuaTeX) and [XSLT 2.0](https://www.w3.org/TR/xslt20/)
   - text encoding: LaTeX, cf. [this file](example.tex)
   - outputs:
-    - [PDF](example.pdf) for publication by compiling with `lualatex example.tex` three times
-    - [HTML](html/example-tei.htm) for progress sharing by applying the stylesheet with `saxon-xslt -s:example-tei.xml -xsl:xslt2-stylesheets/html.xsl -o:html/example-tei.htm`
-    - [plain text](example-tei.txt) for string search, text mining and NLP by applying the appropriate stylesheet with `saxon-xslt -s:example-tei.xml -xsl:xslt2-stylesheets/plain-text.xsl -o:example-tei.txt`
+    - [PDF](https://cdn.jsdelivr.net/gh/radardenker/sanskrit-editing-suite/example.pdf) for publication by compiling three times:
+      ```
+      lualatex example.tex
+      ``` 
+    - [HTML](https://cdn.jsdelivr.net/gh/radardenker/sanskrit-editing-suite/html/example-tei.htm) for web rendering by applying the appropriate stylesheet to the xml file:
+      ```
+      saxon-xslt -s:example-tei.xml -xsl:xslt2-stylesheets/html.xsl -o:html/example-tei.htm
+      ```
+    - [plain text](example-tei.txt) for string search, text mining and NLP by applying the appropriate stylesheet to the xml file:
+      ```
+      saxon-xslt -s:example-tei.xml -xsl:xslt2-stylesheets/plain-text.xsl -o:example-tei.txt
+      ```
 - for selective html and plain text outputs custom stylesheets can be created, cf. [this repo](https://github.com/radardenker/xml-crashcourse) for a short introduction
 
 ## Known issues
